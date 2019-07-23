@@ -18,7 +18,7 @@ body {
 	--color-item-alt: #494d54;
 	--color-quote: #5b677a;
 	--color-info: #57535a;
-	--color-title: #e23434;
+	--color-title: rgb(228, 104, 104);
 	--color-tagline: #e2e2e2;
 	font-family: "europa", Futura, Arial, sans-serif;
 	min-height: 100vh;
@@ -129,7 +129,7 @@ main {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/3.png);
 	background-position: 50% 0%;
 	background-size: cover;
 	z-index: 1;
@@ -187,12 +187,12 @@ main {
 }
 
 .content__title {
-	font-family: "sabbath-black", serif;
-	font-size: 14vw;
+	font-family: "roboto";
+	font-size: 7vw;
 	font-weight: normal;
 	mix-blend-mode: screen;
 	line-height: 0.8;
-	text-transform: lowercase;
+	/* text-transform: lowercase; */
 	margin: 0;
 	color: var(--color-title);
 	z-index: 199;
