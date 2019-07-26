@@ -195,7 +195,7 @@
         layout() {
             let inner = '';
             for (let i = 0; i <= this.layersTotal-1; ++i) {
-                inner +=  '<div class="background__copy" style="background-image: url(img/3.png)"></div>';
+                inner +=  '<div class="background__copy" style="background-image: url(img/mario-wpp.jpg)"></div>';
             }
             this.DOM.main.innerHTML = inner;
             this.DOM.layers = Array.from(this.DOM.main.querySelectorAll('.background__copy'));
